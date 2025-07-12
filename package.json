@@ -1,6 +1,6 @@
 {
   "name": "@blaahaj/json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Types and proto-safe parsing for JSON",
   "scripts": {
     "test": "concurrently --group pnpm:test:*",
