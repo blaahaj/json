@@ -1,7 +1,7 @@
 import * as a from "node:assert";
 import * as t from "node:test";
 
-import protoSafeParse from "../src/protoSafeParse.js";
+import { protoSafeParse } from "@blaahaj/json";
 
 void t.suite("protoSafeParse", () => {
   const withProto = '{ "foo": ["bar"], "__proto__": "XXX" }';
